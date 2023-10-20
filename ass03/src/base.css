@@ -1,0 +1,71 @@
+#myLink:hover {
+    font-weight: bolder;
+    text-decoration: none;
+    color: #986C4A;
+}
+
+#myLink {
+    text-decoration: none;
+    font-style: none;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+nav ul li {
+    display: inline;
+}
+
+.navbar-brand {
+    font-size: small;
+}
+
+.navbar-brand {
+    font-size: 2em !important;
+    font-family: "Roxborough CF";
+}
+
+.navbar .active a:hover{
+    font-weight: light;
+}
+
+body .navbar {
+    background-color: #EEEBE4 !important;
+}
+
+.picture {
+    background-color: #EEEBE4 !important;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.signin {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #EEEBE4;
+}
+
+.signin a {
+    font-weight: bolder;
+    color: black;
+}
+
+.signin a:hover {
+    color: black;
+}
+
+.col-sm p{
+    display: block;
+}
+
+body {
+    background-color: #EEEBE4 !important;
+}
+
+a {
+    color: black;
+}
