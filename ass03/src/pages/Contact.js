@@ -3,13 +3,15 @@ import ImageWithText from "../components/ImageWithText";
 import ImagesOnGrid from "../components/ImagesOnGrid";
 import '../base.css';
 
-export default function Home() {
+export default function Contact() {
     return (
     <>
-            <title>Home</title>
+        <head>
+            <title>Contact</title>
+        </head>
+        <body>
             <Navbar></Navbar>
-            <ImageWithText></ImageWithText>
-            <ImagesOnGrid></ImagesOnGrid>
+        </body>
     </>
 );
 }

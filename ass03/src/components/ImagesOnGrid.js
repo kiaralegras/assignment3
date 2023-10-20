@@ -1,18 +1,26 @@
+import { Link } from "react-router-dom"
+
 export default function ImagesOnGrid() {
     return (
-    <div class="container mt-5 picturesGrid">
+    <div class="container mt-4 picturesGrid">
         <div class="row">
-          <div class="col-sm ml-3">
-            <p>About Us</p>
-            <img src="man running.jpg" height="65%" width="auto" />
+          <div className="col-sm">
+            <Link to="/about">
+                <p>About Us</p>
+                <img className="gridImage" src="man running.jpg"/>
+            </Link>
           </div>
           <div class="col-sm">
-            <p>Calorie Meal Calculator</p>
-            <img src="calculator image.jpg" height="65%" width="auto" />
+            <Link to="/calc">
+                <p>Calorie Meal Calculator</p>
+                <img className="gridImage" src="calculator image.jpg" />
+            </Link>
           </div>
           <div class="col-sm">
-            <p>Meal Inspiration</p>
-            <img src="bowl.jpg" height="65%" width="auto" />
+            <Link to="/mealInspiration">
+                <p>Meal Inspiration</p>
+                <img className="gridImage" src="bowl.jpg" />
+            </Link>
           </div>
         </div>
     </div>
