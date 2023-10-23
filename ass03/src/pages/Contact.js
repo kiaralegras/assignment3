@@ -5,7 +5,7 @@ import '../base.css';
 import '../contact.css';
 
 export default function Contact() {
-    
+    //simple alert to say submission successful
     function onSubmitHandler() {
         alert("Submission successful");
     }

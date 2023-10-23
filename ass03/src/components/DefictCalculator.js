@@ -2,6 +2,7 @@ import { useState } from "react"
 import "../calculator.css";
 
 export default function DefictCalculator() {
+    //state variables for the function
     const [gender, setGender] = useState("male");
     const [age, setAge] = useState("18");
     const [height, setHeight] = useState(150);
@@ -9,9 +10,11 @@ export default function DefictCalculator() {
     const [answer, setAnswer] = useState(0);
 
     function calculateDeficit(e) {
+        //prevent default behavior of the submission
         e.preventDefault();
-        
+
         if(gender == "male") {
+            //formula for male calorie deficit
             setAnswer(10*weight+6.25*height-5*age+5);
         }else{
             setAnswer(10*weight+6.25*height-5*age-161);
