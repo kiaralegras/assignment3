@@ -18,7 +18,7 @@ export default function Contact() {
                 <label>Last name</label>
                 <input placeholder="Wilson" className="specialInput"></input><br></br>
                 <label>Email address*</label>
-                <input required placeholder="hello@reallygreatsite.com" className="specialInput emailInput"></input><br></br>
+                <input type="email" required placeholder="hello@reallygreatsite.com" className="specialInput emailInput"></input><br></br>
                 <label>Messages*</label>
                 <input required placeholder="Type your message here"  className="specialInput messagesInput"></input><br></br>
                 <button type="submit">Submit</button>
