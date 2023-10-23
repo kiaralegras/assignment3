@@ -1,0 +1,17 @@
+.answer {
+    font-size: large;
+}
+
+.deficitCalculator button {
+    border-radius: 10px;
+    background-color: black;
+    color: white
+}
+
+.deficitCalculator span label {
+    margin-right: 2%;
+}
+
+.deficitCalculator label {
+    font-size: large;
+}

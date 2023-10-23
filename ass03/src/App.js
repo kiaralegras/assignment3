@@ -7,7 +7,6 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import Calc from './pages/Calc';
 import MealInspiration from './pages/MealInspiration';
 import Contact from './pages/Contact';
-import SignUp from './pages/SignUp';
 
 export default function App() {
   return (
@@ -19,7 +18,6 @@ export default function App() {
           <Route path="calc" element={<Calc />} />
           <Route path="mealInspiration" element={<MealInspiration />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="signUp" element={<SignUp />} />
         </Route>
       </Routes>
     </BrowserRouter>

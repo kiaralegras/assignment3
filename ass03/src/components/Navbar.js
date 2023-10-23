@@ -22,9 +22,6 @@ export default function Navbar() {
                     <Link class="nav-link" to="/mealInspiration">Meal Inspiration</Link>
                 </li>
                 <li class="nav-item  mr-3 ml-3">
-                    <Link class="nav-link" to="/signUp">Sign Up</Link>
-                </li>
-                <li class="nav-item  mr-3 ml-3">
                     <Link class="nav-link" to="/contact">Contact</Link>
                 </li>
                 </ul>

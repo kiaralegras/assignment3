@@ -1,0 +1,27 @@
+.contactForm {
+    background-color: #e4ded7;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+.specialInput {
+    border: none;
+}
+
+.emailInput {
+    width: 20%;
+}
+
+.messagesInput {
+    width: 70%;
+    height: 100%;
+}
+
+.contactForm input {
+    margin: 1em;
+}
+
+.contactForm button {
+    border-radius: 25px;
+    padding: 10px;
+}
